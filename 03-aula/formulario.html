@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="">
+        <!-- form = agregar informações em formulário para tratar o envio -->
+
+        <fieldset>
+            <!-- Titulo para o fieldset -->
+            <legend>Dados de Login</legend>
+            <!-- Caixinha de nome -->
+             <!-- texto para dizer o que colocar no input = label -->
+        <label for="caixa-nome">Nome:</label>
+        <!-- input = tipo de interação com usuário -->
+        <input type="text" id="caixa-nome" 
+        placeholder="Nome..." 
+        maxlength="15" 
+        minlength="3"
+        />
+
+        <br><br>
+        <!-- Caixinha de email -->
+        <label for="email">Email: </label>
+        <input type="email"
+        name="email"
+        id="email"
+        placeholder="Digite o seu email"
+        >
+<br><br>
+        <!-- caixinha da senha -->
+         <label for="senha">Senha:</label>
+         <input type="password" 
+         name="senha" 
+         id="name" 
+         placeholder="Senha"
+         >
+
+         <!-- botão pra enviar formulário -->
+          <input type="submit" value="Login">
+          <input type="reset" value="Resetar">
+
+          </fieldset>
+
+          <!-- outros inputs tops -->
+
+          <h1>Outros inputs</h1>
+          <label for="data">Data de nascimento</label>
+          <br>
+          <input type="date" id="data">
+          <br>
+          <input type="datetime-local">
+          <br>
+          <input type="time">
+          <br><br>
+
+          <label>
+            Telefone:
+            <input 
+            type="tel" 
+            name="telefone" 
+            id="telefone"
+            placeholder="(00) 00000-0000"
+            />
+          </label>
+          <br><br>
+
+          <label>
+            Textão:
+            <textarea name="textao" 
+            id="textao" 
+            placeholder="Digite sua bio" 
+            cols="10" 
+            rows="10">
+        </textarea>
+          </label>
+          <br><br>
+
+          <label>
+            Cor:
+            <input type="color">
+          </label>
+          <br><br>
+
+          <label>
+            Numero:
+            <input type="number" min="-10" max="50" value="">
+          </label>
+<br><br>
+
+          <label>
+            Barrinha:
+            <br>
+            0 <input type="range" min="0" max="100" value="30" step="20">100
+          </label>
+          <br>
+          <br>
+
+          <!-- caixinhas de seleção -->
+
+          <label for=""> Escolha seu curso: </label>
+          <br>
+          <!-- tipo bolinha -->
+           <input type="radio" name="curso" value="Corte"> Corte e custura
+           <input type="radio" name="curso" value="Hack"> Etical Hacking
+           <input type="radio" name="curso" value="Desing"> Desing de Interiores
+           <br>
+
+           <!-- tipo caixinha -->
+            <label for="">Redes sociais:</label>
+            <input type="checkbox" name="zap"> Zap zap
+            <input type="checkbox" name="face"> Face
+            <input type="checkbox" name="desativado"> Orkut
+            <br><br>
+
+            <!-- Caixa com varias opcoes -->
+            <label for="">Cidade:</label>
+            <select name="" id="">
+                <option value="Toquio">Tóquio</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Doha">Doha</option>
+                <optgroup name="BR" label="Brasil">
+                    <option value="Brasilia" selected>Brasilia</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Salvador">Salvador</option>
+                </optgroup>
+                
+            </select>
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
