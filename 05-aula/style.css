@@ -1,0 +1,32 @@
+ul{
+    background-color: aqua;
+    list-style: none;
+}
+
+li{
+    color: white;
+    font-size: 30px;
+}
+
+h1{
+    font-family: Impact, sans-serif;
+}
+
+/* ESTILIZAÇÃO POR ID */
+#caixa-rosa{
+    background-color: pink;
+}
+
+#roxinha{
+    background-color: rebeccapurple;
+}
+
+.branca{
+    background-color: aliceblue;
+    color: black;
+    margin: 20px;
+    width: 200px;
+    height: 75px;
+    display: inline-block;
+}
+
