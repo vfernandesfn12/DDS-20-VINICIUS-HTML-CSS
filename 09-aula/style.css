@@ -1,0 +1,97 @@
+body{
+    background-color: teal;
+}
+
+.pai{
+    width: 200px;
+    height: 200px;
+
+}
+
+.filho{
+    width: 50px;
+    height: 50px;
+    position: static;
+
+}
+/* tipo estatico (que é padrão) */
+
+#p-estatico{
+    background-color: aqua;
+    position: static;
+}
+
+#f-estatico{
+    background-color: yellow;
+    position: static;
+}
+
+#p-fixo{
+    background-color: aliceblue;
+    position: fixed;
+    /* top: 60px; */
+    bottom: 30px;
+    /* left: 0px; */
+    right: 20px;
+    z-index: -1;
+}
+
+#f-fixo{
+    background-color: gray;
+
+}
+
+#p-grudado{
+    background-color: greenyellow;
+    width: 1000px;
+    height: 1000px;
+
+}
+
+#f-grudado{
+    background-color: blueviolet;
+    position: sticky;
+    top: 50%;
+    left: 50%;
+}
+
+#p-relativo{
+    background-color: rgb(0, 255, 179);
+    z-index: -1;
+  
+
+}
+
+#f-relativo{
+    background-color: rgb(143, 19, 19);
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+/* tipo absoluto com pai estatico */
+
+#p-absoluto{
+    background-color: rgb(238, 255, 0);
+    position: static;
+}
+
+#f-absoluto{
+    background-color: blue;
+    position: absolute;
+    top: 600px;
+}
+
+/* tipo absluto com pai nao estatico */
+#p-absoluto-relativo{
+    background-color: brown;
+    position: relative;
+    top: 50px;
+}
+
+
+#f-absoluto-com-pai{
+    background-color: aqua;
+    position: absolute;
+    top: 200px;
+}
